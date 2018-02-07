@@ -154,6 +154,6 @@ input[type=submit] {background-color: teal;
 
 @media only screen and (max-width: 640px) {
                 #main {
-                    background-color: brown;
+                    background-color: green;
                 }
             }
