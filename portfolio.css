@@ -1,9 +1,11 @@
 a       {text-decoration: none;}
     
-body    {margin: 0 auto;} 
+body    {height: 1000px;
+        margin: 0 auto;} 
         
 footer  {height: 105px;
         position: absolute;
+        top: 920px;
         width: 100%;}   
         
 form    {margin-top: 20px;}        
@@ -45,6 +47,7 @@ input[type=submit] {background-color: teal;
 #main       {background-color: white;
             color: gray;
             float: left;
+            height: 760px;
             padding-left: 20px;
             padding-right: 25px;
             width: 650px;}       
@@ -54,10 +57,11 @@ input[type=submit] {background-color: teal;
             margin-top: 45px;
             padding-bottom: 30px;}
     
-#main img   {height: 140px;
+#main img   {height: 150px;
             padding-bottom: 5px;
             padding-right: 10px;
-            width: 180px;}
+            width: 200px;
+            z-index: 1;}
 
 .mainImages p {background-color: teal;
                 color: white;
@@ -107,84 +111,9 @@ input[type=submit] {background-color: teal;
             height: 10px;}
 
 #wrapper    {background-color: lightgray;
+            height: 900px;
             padding-left: 145px;
             padding-right: 215px;
             padding-top: 50px;
             position: absolute;
             width: 1260px;}
-
-@media only screen and (max-width: 980px) {
-
-                #links {
-                    left: 67%;
-                }
-
-                #main {
-                    background-color: yellow;
-                    width: 52%;
-                }
-
-                #myName {
-                    margin-left: 11%;
-                    
-                    width: 25%;
-                }
-
-                #sidebar { 
-                    left: -15%;
-                    width: 21%;    
-                }
-
-                #sidebar img {
-                    width: 25%;
-                }
-
-                #wrapper {
-                    padding-left: 11%;
-                    padding-right: 16%;
-                    width: 100%;
-                }
-            }
-
-@media only screen and (max-width: 768px) {
-                footer {
-                    position: static;
-                }
-    
-                #main {
-                    background-color: purple;
-                    float: none;
-                    height: 61%;
-                    width: 90%;
-                }
-
-                #sidebar {
-                    float: none;
-                    height: 24%;
-                    position: static;
-                    width: 90%;
-                }
-
-                #sidebar img {
-                    height: 32%;
-                    width: 9%;
-                }
-            
-                #wrapper {
-                    width: 100%;
-                }
-            }
-
-@media only screen and (max-width: 640px) {
-                #main {
-                    background-color: green;
-                    float: none;
-                    width: 90%;
-                }
-
-                #sidebar {
-                    float: none;
-                    position: static;
-                    width: 90;
-                }
-            }

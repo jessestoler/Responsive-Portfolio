@@ -1,13 +1,13 @@
 a       {text-decoration: none;}
     
-body    {margin: 0 auto;} 
+body    {height: 715px;
+        margin: 0 auto;} 
         
-footer  {height: 105px;
+#footer  {height: 105px;
         position: absolute;
-        width: 100%;}   
-        
-form    {margin-top: 20px;}        
-
+        top: 655px;
+        width: 151%;}   
+              
 #gray   {background-color: #666666;
         color: white;
         height: 95px;
@@ -17,19 +17,10 @@ form    {margin-top: 20px;}
         top: 10px;
         width: 100%;}      
     
-header {background-color: white;
+#header {background-color: white;
         height: 85px;
         line-height: 85px;
-        padding-right: 115px;}
-        
-input   {height: 20px;
-        margin-bottom: 10px;
-        width: 100%;} 
-    
-input[type=submit] {background-color: teal;
-                    color: white;
-                    height: 40px;
-                    width: 20%;}    
+        padding-right: 115px;}   
     
 #links      {float: right;
             left: 850px;
@@ -45,6 +36,7 @@ input[type=submit] {background-color: teal;
 #main       {background-color: white;
             color: gray;
             float: left;
+            height: 500px;
             padding-left: 20px;
             padding-right: 25px;
             width: 650px;}       
@@ -72,8 +64,6 @@ input[type=submit] {background-color: teal;
 #mainLeft   {float: left;}
     
 #main p     {font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;} 
-
-#message    {height: 200px;}
     
 #myName     {background-color: teal;
             color: white;
@@ -84,10 +74,6 @@ input[type=submit] {background-color: teal;
             margin-left: 145px;
             text-align: center;
             width: 300px;}
-
-#portfolioLeft {float: left;}
-
-#portfolioRight {float: right;}
     
 #sidebar    {background-color: white;
             color: teal;
@@ -107,13 +93,17 @@ input[type=submit] {background-color: teal;
             height: 10px;}
 
 #wrapper    {background-color: lightgray;
+            height: 525px;
             padding-left: 145px;
             padding-right: 215px;
             padding-top: 50px;
             position: absolute;
             width: 1260px;}
 
-@media only screen and (max-width: 980px) {
+@media screen and (max-width: 980px) {
+                #footer {
+                    width: 128%;
+                }
 
                 #links {
                     left: 67%;
@@ -146,23 +136,46 @@ input[type=submit] {background-color: teal;
                 }
             }
 
-@media only screen and (max-width: 768px) {
-                footer {
-                    position: static;
+@media screen and (max-width: 768px) {
+
+                #footer {
+                    height: 10%;
+                    top: 92%;
+                    width: 108%;
+                }
+
+                #header {
+                    height: 9%;
+                }
+
+                #links {
+                    color: blue;
+                    left: 60%;
                 }
     
                 #main {
                     background-color: purple;
                     float: none;
-                    height: 61%;
+                    font-size: 90%;
+                    height: 60%;
+                    margin-top: 5%;
                     width: 90%;
                 }
 
+                #myName {
+                    margin-left: 5%;
+                }
+
+                #myName h3 {
+                    margin-top: 1%;
+                }
+
                 #sidebar {
+                    text-align: left;
                     float: none;
-                    height: 24%;
+                    height: 23%;
                     position: static;
-                    width: 90%;
+                    width: 95%;
                 }
 
                 #sidebar img {
@@ -171,20 +184,70 @@ input[type=submit] {background-color: teal;
                 }
             
                 #wrapper {
+                    height: 81%;
+                    padding-left: 5%;
+                    padding-right: 21px;
+                    padding-top: 1%;
                     width: 100%;
                 }
             }
 
-@media only screen and (max-width: 640px) {
+@media screen and (max-width: 640px) {
+                #footer {
+                    height: 8%;
+                    top: 114%;
+                    width: 106%;
+                    }
+
+                #gray {
+                    height: 45px;
+                }
+    
+                #header {
+                    height: 11%;
+                    width: 100%;
+                }
+
+                #links {
+                    float: none;
+                    height: 44%;
+                    position: static;
+                    width: 100%;
+                }
+    
                 #main {
                     background-color: green;
                     float: none;
+                    height: 70%;
+                    margin-top: 2%;
                     width: 90%;
+                }
+
+                #myName {
+                    float: none;
+                    height: 56%;
+                    line-height: 326%;
+                    margin-left: 0;
+                    width: 106%;
                 }
 
                 #sidebar {
                     float: none;
+                    height: 18%;
                     position: static;
                     width: 90;
+                }
+
+                #teal {
+                    height: 10px;
+                }
+
+                #wrapper {
+                    height: 81%;
+                    padding-bottom: 2%;
+                    padding-left: 3%;
+                    padding-right: 3%;
+                    padding-top: 2%;
+                    position: static;
                 }
             }
