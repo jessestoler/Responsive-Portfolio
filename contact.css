@@ -55,24 +55,7 @@ input[type=submit] {background-color: teal;
 #main h2    {border-bottom: 3px solid lightgray;
             color: teal;
             margin-top: 45px;
-            padding-bottom: 30px;}
-    
-#main img   {height: 140px;
-            padding-bottom: 5px;
-            padding-right: 10px;
-            width: 180px;}
-
-.mainImages p {background-color: teal;
-                color: white;
-                text-align: center;
-                z-index: 2;
-                position: relative;
-                bottom: 85px;
-                width: 200px;
-                height: 45px;
-                line-height: 45px;}             
-
-#mainLeft   {float: left;}
+            padding-bottom: 30px;}          
     
 #main p     {font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;} 
 
@@ -87,10 +70,6 @@ input[type=submit] {background-color: teal;
             margin-left: 145px;
             text-align: center;
             width: 300px;}
-
-#portfolioLeft {float: left;}
-
-#portfolioRight {float: right;}
     
 #sidebar    {background-color: white;
             color: teal;
@@ -116,3 +95,174 @@ input[type=submit] {background-color: teal;
             padding-top: 50px;
             position: absolute;
             width: 1260px;}
+
+@media screen and (max-width: 980px) {
+                body {
+                        height: 1100px;
+                }       
+
+
+                footer {
+                        top: 735px;
+                        width: 127%;
+                }
+
+                #links {
+                    left: 67%;
+                }
+
+                #main {
+                    background-color: yellow;
+                    height: 580px;
+                    width: 43%;
+                }
+
+                #myName {
+                    margin-left: 11%;
+                    
+                    width: 25%;
+                }
+
+                #portfolioLeft {
+                        float: none;
+                }
+
+                #portfolioRight {
+                        float: none;
+                }
+
+                #sidebar { 
+                    left: -15%;
+                    width: 21%;    
+                }
+
+                #sidebar img {
+                    width: 25%;
+                }
+
+                #wrapper {
+                    padding-left: 11%;
+                    padding-right: 16%;
+                    width: 100%;
+                }
+            }
+
+@media screen and (max-width: 768px) {
+
+                footer {
+                    height: 100px;
+                    top: 142%;
+                    width: 108%;
+                }
+
+                header {
+                    height: 90px;
+                }
+
+                #links {
+                    color: blue;
+                    left: 60%;
+                }
+    
+                #main {
+                    background-color: purple;
+                    float: none;
+                    font-size: 90%;
+                    height: 60%;
+                    margin-top: 5%;
+                    width: 90%;
+                }
+
+                #myName {
+                    height: 101%;    
+                    margin-left: 5%;
+                }
+
+                #myName h3 {
+                    margin-top: 1%;
+                }
+
+                #sidebar {
+                    text-align: left;
+                    float: none;
+                    height: 20%;
+                    position: static;
+                    width: 95%;
+                }
+
+                #sidebar img {
+                    height: 32%;
+                    width: 9%;
+                }
+            
+                #wrapper {
+                    height: 810px;
+                    padding-left: 5%;
+                    padding-right: 21px;
+                    padding-top: 1%;
+                    width: 100%;
+                }
+            }
+
+@media screen and (max-width: 640px) {
+        
+                footer {
+                    height: 8%;
+                    top: 171%;
+                    width: 106%;
+                    }
+
+                #gray {
+                    height: 45px;
+                }
+    
+                header {
+                    height: 11%;
+                    width: 100%;
+                }
+
+                #links {
+                    float: none;
+                    height: 44%;
+                    line-height: 44%;
+                    position: static;
+                    text-align: center;
+                    width: 100%;
+                }
+    
+                #main {
+                    background-color: green;
+                    float: none;
+                    height: 70%;
+                    margin-top: 2%;
+                    width: 90%;
+                }
+
+                #myName {
+                    float: none;
+                    height: 56%;
+                    line-height: 326%;
+                    margin-left: 0;
+                    width: 106%;
+                }
+
+                #sidebar {
+                    float: none;
+                    height: 13%;
+                    position: static;
+                    width: 90;
+                }
+
+                #teal {
+                    height: 10px;
+                }
+
+                #wrapper {
+                    height: 81%;
+                    padding-bottom: 2%;
+                    padding-left: 3%;
+                    padding-right: 3%;
+                    padding-top: 1%;
+                    position: static;
+                }
+            }
