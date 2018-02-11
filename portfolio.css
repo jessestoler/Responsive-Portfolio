@@ -6,7 +6,7 @@ body    {height: 1000px;
 footer  {height: 105px;
         position: absolute;
         top: 920px;
-        width: 160%;}   
+        width: 135%;}   
         
 form    {margin-top: 20px;}        
 
@@ -25,7 +25,7 @@ header {background-color: white;
         padding-right: 115px;}  
     
 #links      {float: right;
-            left: 850px;
+            left: 775px;
             position: absolute;} 
 
 #links a    {border-right: 1px solid gray;
@@ -41,7 +41,7 @@ header {background-color: white;
             height: 760px;
             padding-left: 20px;
             padding-right: 25px;
-            width: 650px;}       
+            width: 45%;}       
     
 #main h2    {border-bottom: 3px solid lightgray;
             color: teal;
@@ -84,12 +84,12 @@ header {background-color: white;
             color: teal;
             float: right;
             height: 190px;
-            left: -250px;
+            right: 350px;
             padding-left: 5px;
             padding-right: 5px;
-            position: relative;
+            position: absolute;
             text-align: center;
-            width: 270px;}  
+            width: 18%;}  
         
 #sidebar h2     {border-bottom: 2px solid lightgray;
                 padding-bottom: 20px;}      
@@ -103,7 +103,7 @@ header {background-color: white;
             padding-right: 215px;
             padding-top: 50px;
             position: absolute;
-            width: 1260px;}
+            width: 100%;}
 
 @media screen and (max-width: 980px) {
                 body {
@@ -121,7 +121,7 @@ header {background-color: white;
                 }
 
                 #main {
-                    background-color: yellow;
+                   
                     height: 860px;
                     width: 43%;
                 }
@@ -154,7 +154,7 @@ header {background-color: white;
                 }
 
                 #sidebar { 
-                    left: -15%;
+                    right: 25%;
                     width: 21%;    
                 }
 
@@ -187,7 +187,7 @@ header {background-color: white;
                 }
     
                 #main {
-                    background-color: purple;
+                    
                     float: none;
                     font-size: 90%;
                     height: 60%;
@@ -241,7 +241,9 @@ header {background-color: white;
                     }
 
                 #gray {
-                    height: 45px;
+                    
+                    height: 80%;
+                    line-height: 25px;
                 }
     
                 header {
@@ -259,11 +261,12 @@ header {background-color: white;
                 }
     
                 #main {
-                    background-color: green;
+                    
                     float: none;
                     height: 75%;
+                    margin-left: 25%;
                     margin-top: 2%;
-                    width: 90%;
+                    width: 50%;
                 }
 
                 #main img {
@@ -279,6 +282,16 @@ header {background-color: white;
                     width: 106%;
                 }
 
+                #portfolioLeft {
+                    float: none;
+                }
+
+                #portfolioRight {
+                    float: none;
+                    left: 3px;
+                    margin-top: 450px;
+                }
+
                 #sidebar {
                     float: none;
                     height: 13%;
@@ -287,7 +300,7 @@ header {background-color: white;
                 }
 
                 #teal {
-                    height: 10px;
+                    height: 20%;
                 }
 
                 #wrapper {

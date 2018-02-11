@@ -1,12 +1,12 @@
 a       {text-decoration: none;}
     
-body    {height: 820px;
+body    {
         margin: 0 auto;} 
         
 footer  {height: 105px;
         position: absolute;
         top: 700px;
-        width: 100%;}   
+        width: 120%;}   
         
 form    {margin-top: 20px;}        
 
@@ -34,7 +34,7 @@ input[type=submit] {background-color: teal;
                     width: 20%;}    
     
 #links      {float: right;
-            left: 850px;
+            left: 750px;
             position: absolute;} 
 
 #links a    {border-right: 1px solid gray;
@@ -50,7 +50,7 @@ input[type=submit] {background-color: teal;
             height: 530px;
             padding-left: 20px;
             padding-right: 25px;
-            width: 650px;}       
+            width: 450px;}       
     
 #main h2    {border-bottom: 3px solid lightgray;
             color: teal;
@@ -75,7 +75,7 @@ input[type=submit] {background-color: teal;
             color: teal;
             float: right;
             height: 190px;
-            left: -250px;
+            left: -20%;
             padding-left: 5px;
             padding-right: 5px;
             position: relative;
@@ -91,14 +91,14 @@ input[type=submit] {background-color: teal;
 #wrapper    {background-color: lightgray;
             height: 635px;
             padding-left: 145px;
-            padding-right: 215px;
+            padding-right: 35px;
             padding-top: 50px;
             position: absolute;
-            width: 1260px;}
+            width: 100%;}
 
 @media screen and (max-width: 980px) {
                 body {
-                        height: 1100px;
+                        height: 850px;
                 }       
 
 
@@ -112,7 +112,7 @@ input[type=submit] {background-color: teal;
                 }
 
                 #main {
-                    background-color: yellow;
+                    
                     height: 580px;
                     width: 43%;
                 }
@@ -165,7 +165,7 @@ input[type=submit] {background-color: teal;
                 }
     
                 #main {
-                    background-color: purple;
+                    
                     float: none;
                     font-size: 90%;
                     height: 60%;
@@ -205,10 +205,14 @@ input[type=submit] {background-color: teal;
             }
 
 @media screen and (max-width: 640px) {
-        
+                body {
+                    height: 1010px;
+                }
+
+
                 footer {
                     height: 8%;
-                    top: 171%;
+                    top: 156%;
                     width: 106%;
                     }
 
@@ -231,9 +235,9 @@ input[type=submit] {background-color: teal;
                 }
     
                 #main {
-                    background-color: green;
+                   
                     float: none;
-                    height: 70%;
+                    height: 60%;
                     margin-top: 2%;
                     width: 90%;
                 }
@@ -248,7 +252,7 @@ input[type=submit] {background-color: teal;
 
                 #sidebar {
                     float: none;
-                    height: 13%;
+                    height: 23%;
                     position: static;
                     width: 90;
                 }

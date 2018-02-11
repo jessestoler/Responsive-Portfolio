@@ -20,14 +20,13 @@ body    {height: 715px;
 #header {background-color: white;
         height: 85px;
         line-height: 85px;
-        padding-right: 115px;}   
+        padding-right: 15px;}   
     
-#links      {float: right;
-            left: 850px;
+#links      {
+            left: 750px;
             position: absolute;} 
 
 #links a    {border-right: 1px solid gray;
-            color: gray;
             padding-left: 5px;
             padding-right: 5px;}
     
