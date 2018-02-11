@@ -109,7 +109,7 @@ body    {height: 715px;
                 }
 
                 #main {
-                    background-color: yellow;
+                    
                     width: 52%;
                 }
 
@@ -153,7 +153,7 @@ body    {height: 715px;
                 }
     
                 #main {
-                    background-color: purple;
+                    
                     float: none;
                     font-size: 90%;
                     height: 60%;
@@ -200,6 +200,7 @@ body    {height: 715px;
 
                 #gray {
                     height: 45px;
+                    line-height: 25px;
                 }
     
                 #header {
@@ -210,12 +211,15 @@ body    {height: 715px;
                 #links {
                     float: none;
                     height: 44%;
+                    line-height: 44%;
+                    margin-top: 20px;
                     position: static;
+                    text-align: center;
                     width: 100%;
                 }
     
                 #main {
-                    background-color: green;
+                   
                     float: none;
                     height: 70%;
                     margin-top: 2%;

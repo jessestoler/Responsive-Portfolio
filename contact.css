@@ -229,6 +229,7 @@ input[type=submit] {background-color: teal;
                     float: none;
                     height: 44%;
                     line-height: 44%;
+                    margin-top: 25px;
                     position: static;
                     text-align: center;
                     width: 100%;
